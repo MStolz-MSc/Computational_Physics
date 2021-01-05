@@ -4,19 +4,17 @@ import numpy as np
 print("----------------------------------------")
 print("## Aufgabe 2 - Hello World")
 print("Hello world")
-print("----------------------------------------")
 
 # Aufgabe 3 -  Taschnenrechner
 from math import sqrt, exp, log
 print("----------------------------------------")
 print("## Aufgabe 3 -  Taschnenrechner")
 print("Nun kommen die Rechenaufgaben")
-Taschnenrechner = [5+5, 5.0 + 5.0, 5.0+4, 10/3, 10.0/3.0, sqrt(2), sqrt(2.0), \
+Taschenrechner = [5+5, 5.0 + 5.0, 5.0+4, 10/3, 10.0/3.0, sqrt(2), sqrt(2.0), \
                    exp(log(10)), (0.3-0.2-0.1), 2**3, not(4>3 and 100>6), \
                        True or False, "a" + "bc", 3*"bc"]
-for eintrag in Taschnenrechner:
+for eintrag in Taschenrechner:
     print(eintrag)
-print("----------------------------------------")
 
 # Aufgabe 4  - Schleifen und Fallunterscheidungen
 print("----------------------------------------")
@@ -111,9 +109,10 @@ def checkLeapYear(year):
 Jahr = 1900
 print("Is %d a LeapYear?"%(Jahr))
 print(checkLeapYear(Jahr))
-print("----------------------------------------")
 
 # Aufgabe 5 (2018) - Satellit
+print("-----------------------------")
+print("# Aufgabe 5 (2018) - Satellit")
 
 def heightSat(time):
     """
